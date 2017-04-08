@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.NewDeleteFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteEditText"
+            android:hint="Enter Search Term (ID, Species, Bait....)"
+            android:drawableLeft="@drawable/ic_search_24dp"
+            android:maxLines="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteList"
+            android:choiceMode="singleChoice"
+            android:layout_below="@+id/deleteEditText"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/deleteButton" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete All"
+            android:id="@+id/deleteButton"
+            android:background="#769dd4"
+            android:textColor="#fefafa"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

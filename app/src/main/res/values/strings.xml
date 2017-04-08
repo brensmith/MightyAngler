@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">MightyAngler</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_data">Add Entry to Database</string>
+    <string name="view_data">View items in Database</string>
+    <string name="about_app">About App</string>
+    <string name="title_activity_my_menu">Menu</string>
+    <string name="title_activity_menu2">Menu</string>
+    <string name="title_activity_add_data">Enter Data</string>
+    <string name="Species">Species</string>
+    <string name="Weight">Weight</string>
+    <string name="Bait">Bait Used</string>
+    <string name="Location">Location</string>
+    <string name="Weather">Weather</string>
+    <string name="Date">Date</string>
+    <string name="Submit_Button">Submit</string>
+    <string name="View_Button">View Data</string>
+    <string name="Data_List">List of fish stored</string>
+    <string name="Designer">This app was created by Brendan Smith and Brian Phillips 2016</string>
+    <string name="add_Data">Add a Catch</string>
+    <string name="search_Data">Search a Catch</string>
+    <string name="view_Data">View a Catch</string>
+    <string name="delete_Data">Delete a Catch</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+
+
+    <string-array name="species_array">
+        <item>Click to Select</item>
+        <item>Brown Trout</item>
+        <item>Rainbow Trout</item>
+        <item>Sea Trout</item>
+        <item>Salmon</item>
+        <item>Carp</item>
+        <item>Bass</item>
+        <item>Mullet</item>
+        <item>Flounder</item>
+        <item>Cod</item>
+        <item>Tuna</item>
+        <item>Shark</item>
+
+    </string-array>
+
+
+    <string-array name="bait_array">
+        <item>Click to Select</item>
+        <item>Baited Hook</item>
+        <item>Lures</item>
+        <item>Fly</item>
+    </string-array>
+
+
+    <string-array name="weather_array">
+        <item>Click to Select</item>
+        <item>Sunny</item>
+        <item>Overcast</item>
+        <item>Raining</item>
+        <item>Windy</item>
+        <item>Snowing</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main_activity_navigation">Mighty Angler</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appname">Mighty Angler</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>
+
+

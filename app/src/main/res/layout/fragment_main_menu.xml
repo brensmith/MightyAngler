@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wit.ie.mightyangler.Fragments.MainMenuFragment">
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_add_button"
+            android:layout_gravity="left|top"
+            android:background="@drawable/ic_launcher_folder"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="45dp"
+            android:onClick="DataMenu"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_search_button"
+            android:layout_gravity="right|top"
+            android:background="@drawable/ic_launcher_search"
+            android:layout_marginTop="50dp"
+            android:onClick="searchScreen"
+            android:layout_marginRight="45dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_view_button"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ic_launcher_view"
+            android:onClick="ListMenu"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_delete_button"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_launcher_trash"
+            android:onClick="deleteAllPushed"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/add_Data"
+            android:id="@+id/textView14"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/search_Data"
+            android:id="@+id/textView15"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/view_Data"
+            android:id="@+id/textView16"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/delete_Data"
+            android:id="@+id/textView17"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_map_button"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="90dp"
+            android:clickable="true"
+            android:onClick="MapScreen"
+            android:background="@drawable/ic_launcher_map"
+            android:layout_marginRight="45dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menu_about_button"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/ic_launcher_info"
+            android:onClick="InfoScreen"
+            android:layout_marginBottom="90dp"
+            android:layout_marginLeft="45dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="About App"
+            android:id="@+id/textView18"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Map"
+            android:id="@+id/textView9"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="70dp" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
